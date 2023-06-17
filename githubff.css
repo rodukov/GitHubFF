@@ -1,5 +1,40 @@
 body {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     margin: 0; padding: 0;
+    background-color: #0d1117;
+    overflow: hidden;
+}
+svg {
+    fill: #7d8590;
+    width: 15px;
+    height: 15px;
+}
+.zero {
+    margin: 0; padding: 0;
+}
+.item {
+    display: flex;
+    padding: 5px 10px 5px 10px;
+}
+.item:hover {
+    background-color: rgba(177,186,196,0.12);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .11s;
+}
+.header {
+    background-color: #010409;
+    width: 200%;
+    overflow-x: scroll;
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #21262d;
+}
+
+.font {
+    color: #7d8590;
+    margin-left: 5px;
+    font-family: 'Arial';
+    font-size: 14px;
 }

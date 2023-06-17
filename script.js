@@ -44,7 +44,7 @@ const default_colortheme_hacked = {
 
 
 
-let selected_colortheme = winter_colortheme
+let selected_colortheme = haloween_colortheme
 var r = document.querySelector(':root');
 
 let styleadmin = (key, value) => {
