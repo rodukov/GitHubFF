@@ -38,3 +38,27 @@ svg {
     font-family: 'Arial';
     font-size: 14px;
 }
+
+#avatar {
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    margin-left: 95px;
+}
+#themes {
+    background-color: red;
+    height: 100%;
+    display: none;
+}
+#profile {
+    background-color: blue;
+    height: 100%;
+    display: none;
+}
+.active {
+    opacity: 1;
+    display: block;
+}
